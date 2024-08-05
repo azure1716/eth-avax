@@ -6,6 +6,11 @@ contract Error_handling {
         require(i > 0, "Input must be greater than 0");
         return i*2;
     }
+    
+    function div(uint i) public pure returns(uint) {
+        require(i > 2, "Input must be greater than 2");
+        return i/2;
+    }
 
     function square(uint i) public pure returns(uint) {
         if (i <= 0) {
