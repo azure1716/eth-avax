@@ -6,8 +6,8 @@ contract Error_handling {
         require(i > 0, "Input must be greater than 0");
         return i*2;
     }
-    
-    function div(uint i) public pure returns(uint) {
+
+    function divBy2(uint i) public pure returns(uint) {
         require(i > 2, "Input must be greater than 2");
         return i/2;
     }
@@ -26,5 +26,9 @@ contract Error_handling {
     function add() public view returns(uint){
         assert(num >= 0);
         return num + 2;
+    }
+    function div(uint a, uint b) public pure returns(uint){
+        assert(b > 0 && a > 0);
+        return a/b;
     }
 }
