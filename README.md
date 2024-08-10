@@ -7,9 +7,9 @@ This Solidity program is a Module 1  Project program that demonstrates the basic
 This program is a simple contract written in Solidity, a programming language used for developing smart contracts on the Ethereum blockchain. The purpose of this program is to perform Error Handling using require(), revert(), and assert() statements . The contract has three functions , first one returns the multiply with 2 of a number , in this require() statement is used . In second function it returns the square of a number , in this revert() statement is used and in third one it just add 2 to the number , in this assert() statement is used . This program serves as a simple and straightforward introduction to Solidity programming, and can be used as a stepping stone for more complex projects in the future.
 We use these three methods in error-handling process in solidity:
 
-require(): which is used to validate some condition before execution of the rest of the function body. it takes 2 parameters, first the condition and second the text which wiil be displayed.
-assert(): this is similar to require , but only takes one parameter i.e condition which is needed to be checked.
-revert(): this function used to flag an error , if the condition are not met , then this will revert back all the function in its initial state and also used to save gas .
+* require(): which is used to validate some condition before execution of the rest of the function body. it takes 2 parameters, first the condition and second the text which wiil be displayed.
+* assert(): this is similar to require , but only takes one parameter i.e condition which is needed to be checked.
+* revert(): this function used to flag an error , if the condition are not met , then this will revert back all the function in its initial state and also used to save gas .
 
 ## Getting Started
 
